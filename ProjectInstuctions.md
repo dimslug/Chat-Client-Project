@@ -88,9 +88,10 @@ This would assume that items prior have been completed and that the `Footer Comp
 - If the user is not an owner of the message, it should not complete the request.
 
 ## Stretch Goals: `#U6_05`
-- Inclue a `project-details.md` to the **root** directory.
+- Include a `README.md` to the **root** directory.
   - Detail the concept of this project in psuedo code within the document.
   -  **[Pseudo Code Article](https://www.geeksforgeeks.org/how-to-write-a-pseudo-code/)**
+  -  [What is a README file?](https://www.mygreatlearning.com/blog/readme-file/)
 -  Customize styling.
 -  Make it so that the `update` and `delete` options for a message is only available to the owner of that message.
 -  Create an interval to update the rooms messages every set time frame (ex: every 30 seconds, a request is triggered.)
