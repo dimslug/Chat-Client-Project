@@ -1,4 +1,7 @@
 # Chat - Client
+## Project Rubric
+[Chat Client Rubric](https://docs.google.com/spreadsheets/d/1yB13suD_Y-AzTfh6ctl4Xtrx28kdqIKwZ8b81Nex15g/edit?usp=sharing)
+
 The server has been created and tested throughout Postman. All endpoints should be working prior to building up our client. This way, if you are not getting the results needed while building out the front end, you know where to start debugging.
 
 > Client --> Postman --> Server
