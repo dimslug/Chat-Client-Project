@@ -1,8 +1,14 @@
 import React from 'react'
+import { Container } from 'reactstrap'
 
 function RoomDisplay() {
     return (
-        <div>RoomDisplay</div>
+        <>
+            <Container>
+                Room Display
+            </Container>
+            
+        </>
     )
 }
 
