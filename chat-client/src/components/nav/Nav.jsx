@@ -1,9 +1,12 @@
-import React from 'react'
+import React from "react";
+import { Navbar, NavbarBrand } from "reactstrap";
 
-function Nav() {
-    return (
-        <div>Nav</div>
-    )
-}
+const BrandNavbar = () => {
+  return (
+    <Navbar color="light" light expand="md">
+      <NavbarBrand>Water Enjoyers</NavbarBrand>
+    </Navbar>
+  );
+};
 
-export default Nav
+export default BrandNavbar;
