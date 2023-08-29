@@ -39,7 +39,7 @@ function Signup({ updateToken }) {
             //NOTE - May need to change message to match the 200res from server
             if(data.message === 'User Created') {
                 updateToken(data.token)
-                navigate('/rooms')
+                navigate('/room')
             } else {
                 alert(data.message)
             }

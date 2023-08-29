@@ -35,7 +35,7 @@ function Login({ updateToken }) {
             //NOTE - May need to change message to match the 200res from server
             if(data.message === 'Success!') {
                 updateToken(data.token)
-                navigate('/rooms')
+                navigate('/room')
             } else {
                 alert(data.message);
             }
