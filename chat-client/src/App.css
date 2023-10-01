@@ -1,8 +1,7 @@
 *,
-
 html {
-    margin: 0px;
-    padding: 0px;
+  margin: 0px;
+  padding: 0px;
 }
 
 .App {
@@ -25,3 +24,4 @@ html {
   color: white;
   padding-top: 1em;
 }
+@import "./chatroom.css";
