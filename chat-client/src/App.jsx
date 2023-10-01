@@ -44,4 +44,16 @@ function App() {
   );
 }
 
+
+import React from 'react';
+import BrandNavbar from './components/Nav';
+const App = () => {
+  return (
+    <div>
+      <BrandNavbar />
+    </div>
+  );
+};
+
 export default App;
+
