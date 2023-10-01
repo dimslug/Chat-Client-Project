@@ -23,22 +23,19 @@ function App() {
     }
   }, [])
 
+
   return (
     <div className="App">
 
       <Nav />
-        {
-          sessionToken !== '' ?
-          <Logout setSessionToken={setSessionToken} /> : null
-        }
       <Routes>
         <Route
         path='/'
         element={<Auth updateToken={updateToken}/>}>          
         </Route>
         <Route
-        path='/rooms'
-        element={<DisplayMain updateToken={updateToken}/>}>          
+        path='/room'
+        element={<DisplayMain token={sessionToken}/>}>          
         </Route>
       </Routes>
       <Footer />
