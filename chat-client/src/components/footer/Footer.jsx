@@ -2,7 +2,11 @@ import React from 'react'
 
 function Footer() {
     return (
-        <div>Footer</div>
+        <>
+        <footer className='footer'>
+            <p>Upright Projet: React Chat</p>
+        </footer>
+        </>
     )
 }
 
