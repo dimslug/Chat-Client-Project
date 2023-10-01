@@ -24,3 +24,4 @@ html {
   color: white;
   padding-top: 1em;
 }
+@import "./chatroom.css";

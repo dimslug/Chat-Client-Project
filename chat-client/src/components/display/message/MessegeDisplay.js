@@ -80,4 +80,11 @@ const MessageDisplay = ({ selectedRoom, handleMessageDisplay }) => {
   );
 };
 
+function isMessageOwner(message) {
+  return currentUser.id === message.owner;
+}
+if (!isMessageOwner(message)) {
+  return;
+}
+
 export default MessageDisplay;

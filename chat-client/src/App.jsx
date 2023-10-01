@@ -6,6 +6,7 @@ import Nav from "./components/nav/Nav";
 import { useEffect, useState } from "react";
 import DisplayMain from "./components/display/DisplayMain";
 import Logout from "./components/auth/logout/Logout";
+import ChatRoom from "./components/chat-room/ChatRoom";
 
 function App() {
   const [sessionToken, setSessionToken] = useState("");
@@ -27,24 +28,11 @@ function App() {
       <Nav />
       <Routes>
         <Route path="/" element={<Auth updateToken={updateToken} />}></Route>
-        <Route
-          path="/room"
-          element={<DisplayMain token={sessionToken} />}
-        ></Route>
+        <Route path="/room" element={<ChatRoom token={sessionToken} />}></Route>
       </Routes>
       <Footer />
     </div>
   );
 }
-
-import React from "react";
-import BrandNavbar from "./components/Nav";
-const App = () => {
-  return (
-    <div>
-      <BrandNavbar />
-    </div>
-  );
-};
 
 export default App;
